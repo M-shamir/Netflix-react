@@ -42,7 +42,7 @@ function Navbar() {
         <div className="navbar-profile">
         <img src={profile_img} alt="profile"  className='profile'/>
         <img src={caret_icon} alt="dropdown"  />
-        <div className="drop-down">
+        <div className="dropdown">
           <p onClick={()=>{logout()}}>Sign Out of Netflix</p>
         </div>
         </div>
